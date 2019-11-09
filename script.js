@@ -1,13 +1,11 @@
-var putInPlus = {
-  
-  '+': (firstOper, secondOper) => firstOper + secondOper,
-
-} ;
-function putInOne(operator){
-	operator = 1;
-	document.form.textfield.value = document.form.textfield.value + operator;
+function putInFour(){
+	document.calculator.textfield.value += '4';
 }
-function putInTwo(operator){
-	operator = 2;
-	document.form.textfield.value = document.form.textfield.value + operator;
+//This function putting 5 in a textfield on button onclick event
+function putInFive(){
+	document.calculator.textfield.value += '5';
+}
+//This function putting 6 in a textfield on button onclick event
+function putInSix(){
+	document.calculator.textfield.value += '6';
 }
