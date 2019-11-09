@@ -47,3 +47,6 @@ function root(){
 function percentage(){
 	document.calculator.textfield.value = document.calculator.textfield.value[-1] / 100;
 }
+function percentage(){
+	document.calculator.textfield.value = document.calculator.textfield.value[-1] / 100;
+}
